@@ -1,0 +1,9 @@
+pyright(python lsp server)
+npm i -g pyright
+
+intelephense(php lsp server)
+npm install -g intelephense
+
+gopls (golang lsp server)
+go install golang.org/x/tools/gopls@latest
+sudo ln -s /home/zhouhui/go/bin/golps /usr/bin/golps
