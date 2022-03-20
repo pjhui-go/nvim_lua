@@ -125,6 +125,6 @@ vim.api.nvim_set_keymap("n", "U", ":UndotreeToggle<CR>", {noremap=true, silent=t
 vim.api.nvim_set_keymap("n", "<leader>f", ":F  **/*<left><left><left><left><left>", {noremap=true})
 vim.api.nvim_set_keymap("n", "<leader>fr", ":Far **/*<left><left><left><left><left>", {noremap=true})
 
-    vim.g.python3_host_prog="/usr/local/bin/python3"
+    vim.g.python3_host_prog="/usr/bin/python3"
     vim.opt.termguicolors = true
     require("init-plugins")

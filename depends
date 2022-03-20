@@ -1,0 +1,8 @@
+安装搜索组件  会占用rg命令   需要把rigger-ng改成rng  之后再安装
+$ sudo yum-config-manager --add-repo=https://copr.fedorainfracloud.org/coprs/carlwgeorge/ripgrep/repo/epel-7/carlwgeorge-ripgrep-epel-7.repo
+$ sudo yum install ripgrep
+
+安装packer插件管理器
+git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+
+
